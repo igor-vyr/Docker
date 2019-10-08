@@ -1,0 +1,7 @@
+- to mount a local directory to a docker image directory (and run the container)
+sudo docker run --rm -it -v /home/igor/Python:/home/Python myconda
+
+- to export conda enviroment xy .yml file:
+source activate xy
+conda env export > /home/igor/Documents/xy.yml
+
